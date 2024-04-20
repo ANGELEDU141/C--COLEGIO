@@ -215,19 +215,18 @@ namespace caso01
 
 
 
-                dataGridView2[7, row].Value = "";
+                
 
 
 
-                 dataGridView2[7, row].Value = totaldiv;
-                dataGridView2[8, row].Value = a;
+                 dataGridView2[10, row].Value = a;
+                dataGridView2[8, row].Value = totaldiv;
 
 
                 textBox1.Clear();
                 textBox2.Clear();
                 textBox3.Clear();
                 textBox4.Clear();
-
                 textBox5.Clear();
                 textBox6.Clear();
                 textBox7.Clear();
