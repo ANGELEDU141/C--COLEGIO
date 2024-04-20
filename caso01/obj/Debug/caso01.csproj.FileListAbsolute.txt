@@ -43,3 +43,14 @@ C:\Users\ABANTO\Desktop\TAREA-11-main\caso01\obj\Debug\caso01.Principal.resource
 C:\Users\ABANTO\Desktop\TAREA-11-main\caso01\obj\Debug\caso01.Properties.Resources.resources
 C:\Users\ABANTO\Desktop\TAREA-11-main\caso01\obj\Debug\caso01.csproj.GenerateResource.cache
 C:\Users\ABANTO\Desktop\TAREA-11-main\caso01\obj\Debug\caso01.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\bin\Debug\caso01.exe.config
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\bin\Debug\caso01.exe
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\bin\Debug\caso01.pdb
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.csproj.AssemblyReference.cache
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.Form1.resources
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.Principal.resources
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.Properties.Resources.resources
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.csproj.GenerateResource.cache
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.exe
+C:\Users\Alumno\Source\Repos\TAREA-11\caso01\obj\Debug\caso01.pdb

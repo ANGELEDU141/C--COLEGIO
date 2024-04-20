@@ -55,8 +55,8 @@
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -74,7 +74,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(716, 166);
+            this.button1.Location = new System.Drawing.Point(797, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -91,7 +91,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(168, 168);
+            this.textBox2.Location = new System.Drawing.Point(177, 166);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 3;
@@ -112,7 +112,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(598, 166);
+            this.textBox5.Location = new System.Drawing.Point(586, 166);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 6;
@@ -181,7 +181,7 @@
             this.Column9,
             this.Column8,
             this.Column10});
-            this.dataGridView2.Location = new System.Drawing.Point(12, 195);
+            this.dataGridView2.Location = new System.Drawing.Point(12, 192);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(932, 172);
             this.dataGridView2.TabIndex = 13;
@@ -244,9 +244,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(797, 166);
+            this.button2.Location = new System.Drawing.Point(797, 57);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(68, 23);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 14;
             this.button2.Text = "Salir";
             this.button2.UseVisualStyleBackColor = true;
@@ -259,31 +259,34 @@
             this.textBox8.Size = new System.Drawing.Size(346, 20);
             this.textBox8.TabIndex = 15;
             // 
-            // label5
+            // button3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(246, 121);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 13);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "ESTADO";
+            this.button3.Location = new System.Drawing.Point(797, 89);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Borrar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox9
+            // button4
             // 
-            this.textBox9.Location = new System.Drawing.Point(327, 120);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(107, 20);
-            this.textBox9.TabIndex = 17;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            this.button4.Location = new System.Drawing.Point(797, 120);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 19;
+            this.button4.Text = "Actualizar";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::caso01.Properties.Resources.desktop_wallpaper_survey_survey;
-            this.ClientSize = new System.Drawing.Size(968, 397);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(958, 397);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView2);
@@ -338,7 +341,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
